@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment1_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/experiment1_1.res" /d "_DEBUG" "C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\experiment1_1.rc"" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP34B3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/experiment1_1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\experiment1_1.cpp"
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\MainFrm.cpp"
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\experiment1_1Doc.cpp"
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\experiment1_1View.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP34B3.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP34B4.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/experiment1_1.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment1_1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP34B4.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP34C4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment1_1.pdb" /debug /machine:I386 /out:"Debug/experiment1_1.exe" /pdbtype:sept 
+.\Debug\experiment1_1.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\experiment1_1Doc.obj
+.\Debug\experiment1_1View.obj
+.\Debug\experiment1_1.res
+]
+Creating command line "link.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP34C4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+experiment1_1.cpp
+MainFrm.cpp
+experiment1_1Doc.cpp
+experiment1_1View.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+experiment1_1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
