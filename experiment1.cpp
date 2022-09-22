@@ -1,12 +1,3 @@
-//模版
-void CTestView::OnDraw(CDC* pDC)
-{
-	CTestDoc* pDoc = GetDocument();
-	ASSERT_VALID(pDoc);
-	// TODO: add draw code for native data here
-    
-}
-
 /*
     2-7
     从起点p0(-100, -50)到终点p1(100, 50)绘制一条1像素宽的蓝色直线段。
@@ -34,7 +25,7 @@ void CTestView::OnDraw(CDC* pDC)
 
 /*
     2-8
-    将客户区矩形左右边界各收缩100个像素绘制重叠的巨星和圆角矩形。
+    将客户区矩形左右边界各收缩100个像素绘制重叠的矩形和圆角矩形。
     矩形边框为1像素宽的蓝色边界线，矩形内部填充红色，圆角取(50, 50)。
 */
 void CTestView::OnDraw(CDC* pDC)
