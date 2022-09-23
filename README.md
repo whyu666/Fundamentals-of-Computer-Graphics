@@ -15,13 +15,13 @@
 
 ## 课后2-2
 使用MFC设计一个长方形类CRectangle，使用对话框输入长方形的长度和宽度，在客户区输出长方形的周长和面积。  
-参考：https://yxchangingself.xyz/posts/MFC_get_input_by_Dialog/ (CC BY-NC 4.0)
+_参考：https://yxchangingself.xyz/posts/MFC_get_input_by_Dialog/ (CC BY-NC 4.0)_
 
 ## 课后2-4
 把一个半径为R的圆40等份，以每个等分点为圆心，以r为半径画圆。试编程绘制变化的环。  
-参考：https://blog.csdn.net/qq_53567489/article/details/120517637
+_参考：https://blog.csdn.net/qq_53567489/article/details/120517637_
 
 ## 课后2-5
 以屏幕客户区中心为二维坐标系原点，绘制如图2-65所示的五边形与五角星的嵌套结构。试取递归深度n为3，请在OnDraw()函数中编程绘制。  
-参考：https://itpcb.com/a/1762651
+_参考：https://itpcb.com/a/1762651_
 
