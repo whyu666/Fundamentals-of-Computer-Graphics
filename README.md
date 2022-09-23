@@ -23,5 +23,5 @@ _参考：https://blog.csdn.net/qq_53567489/article/details/120517637_
 
 ## 课后2-5
 以屏幕客户区中心为二维坐标系原点，绘制如图2-65所示的五边形与五角星的嵌套结构。试取递归深度n为3，请在OnDraw()函数中编程绘制。  
-_参考：https://itpcb.com/a/1762651_
+_参考：https://blog.csdn.net/qq_49435172/article/details/120427771_
 
