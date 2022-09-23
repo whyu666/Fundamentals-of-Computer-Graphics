@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment2_2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSPA35.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/experiment2_2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment2_2\experiment2_2View.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSPA35.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSPA36.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment2_2.pdb" /debug /machine:I386 /out:"Debug/experiment2_2.exe" /pdbtype:sept 
+.\Debug\experiment2_2.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\experiment2_2Doc.obj
+.\Debug\experiment2_2View.obj
+.\Debug\experiment2_2.res
+.\Debug\InputDialog.obj
+]
+Creating command line "link.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSPA36.tmp"
+<h3>Output Window</h3>
+Compiling...
+experiment2_2View.cpp
+C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment2_2\experiment2_2View.cpp(84) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment2_2\experiment2_2View.cpp(84) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment2_2\experiment2_2View.cpp(84) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+C:\Users\wanghaoyu\Documents\VC6\MyProjects\experiment2_2\experiment2_2View.cpp(84) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+experiment2_2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
