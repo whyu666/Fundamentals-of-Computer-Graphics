@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: p3_3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LShow\AppData\Local\Temp\RSP5C7E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/p3_3.pdb" /debug /machine:I386 /out:"Debug/p3_3.exe" /pdbtype:sept 
+".\Debug\InputDlg.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\P2.obj"
+".\Debug\p3_3.obj"
+".\Debug\p3_3Doc.obj"
+".\Debug\p3_3View.obj"
+".\Debug\StdAfx.obj"
+".\Debug\p3_3.res"
+]
+Creating command line "link.exe @C:\Users\LShow\AppData\Local\Temp\RSP5C7E.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+p3_3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
