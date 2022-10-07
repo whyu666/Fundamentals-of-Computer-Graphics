@@ -9,15 +9,15 @@
 #pragma once
 #endif // _MSC_VER > 1000
 
-class CP2  
+class CP2
 {
 public:
 	CP2();
 	virtual ~CP2();
-	CP2(double x,double y)
+	CP2(double x, double y)
 	{
-		this->x=x;
-		this->y=y;
+		this->x = x;
+		this->y = y;
 	}
 public:
 	double x;
