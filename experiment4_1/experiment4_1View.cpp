@@ -146,7 +146,8 @@ void CExperiment4_1View::DrawGraph(CDC *pDC) {  //绘制图形
 	pDC->SetViewportExt(rect.Width(), -rect.Height());   //设置视区比例，且x轴水平向右，y轴垂直向上
 	pDC->SetViewportOrg(rect.Width() / 2, rect.Height() / 2);  //设置客户区中心为坐标系原点
 	rect.OffsetRect(-rect.Width() / 2, -rect.Height() / 2);  //矩形与客户区重合
-	//DrawPolygon(pDC);  //绘制多边形
+	DrawPolygon(pDC);  //绘制多边形
+	Sleep(1000);
 	FillPolygon(pDC);  //填充多边形
 	
 }
