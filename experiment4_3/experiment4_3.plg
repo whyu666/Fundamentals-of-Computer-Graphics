@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment4_3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP30BE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/experiment4_3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"\\MAC\WINDOWS虚拟机共享\Henu_Class_ComputerGraphics-master\experiment4_3\experiment4_3View.cpp"
+"\\MAC\WINDOWS虚拟机共享\Henu_Class_ComputerGraphics-master\experiment4_3\Line.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP30BE.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP30BF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment4_3.pdb" /debug /machine:I386 /out:"Debug/experiment4_3.exe" /pdbtype:sept 
+".\Debug\experiment4_3.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\experiment4_3Doc.obj"
+".\Debug\experiment4_3View.obj"
+".\Debug\experiment4_3.res"
+".\Debug\Line.obj"
+".\Debug\P2.obj"
+".\Debug\StackNode.obj"
+]
+Creating command line "link.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP30BF.tmp"
+<h3>Output Window</h3>
+Compiling...
+experiment4_3View.cpp
+Line.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+experiment4_3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
