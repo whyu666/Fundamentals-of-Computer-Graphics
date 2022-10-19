@@ -170,7 +170,7 @@ void CExperiment4_2View::DrawPolygon(CDC *pDC) {
 
 void CExperiment4_2View::FillPolygon(CDC *pDC) {
 	COLORREF BClr = RGB(255, 255, 255);  //背景色
-	COLORREF FClr = RGB(255, 0, 0);  //填充色
+	COLORREF FClr = RGB(0, 0, 0);  //填充色
 	int ymin, ymax;  //边的最小y值与最大y值
 	double x, y, k;  //x,y当前点，k斜率的倒数
 	for(int i = 0; i < 7; i++) {  //循环多边形所有边
