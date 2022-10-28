@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment6_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP63EC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/experiment6_1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\wanghaoyu\Desktop\experiment6_1\experiment6_1View.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP63EC.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP63ED.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment6_1.pdb" /debug /machine:I386 /out:"Debug/experiment6_1.exe" /pdbtype:sept 
+.\Debug\experiment6_1.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\experiment6_1Doc.obj
+.\Debug\experiment6_1View.obj
+.\Debug\experiment6_1.res
+.\Debug\Face.obj
+.\Debug\P2.obj
+.\Debug\P3.obj
+]
+Creating command line "link.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP63ED.tmp"
+<h3>Output Window</h3>
+Compiling...
+experiment6_1View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+experiment6_1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
