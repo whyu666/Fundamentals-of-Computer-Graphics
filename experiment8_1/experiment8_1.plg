@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment8_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP5065.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/experiment8_1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\Users\wanghaoyu\Desktop\experiment8_1\experiment8_1View.cpp"
+]
+Creating command line "cl.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP5065.tmp" 
+Creating temporary file "C:\Users\WANGHA~1\AppData\Local\Temp\RSP5066.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment8_1.pdb" /debug /machine:I386 /out:"Debug/experiment8_1.exe" /pdbtype:sept 
+.\Debug\experiment8_1.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\experiment8_1Doc.obj
+.\Debug\experiment8_1View.obj
+.\Debug\experiment8_1.res
+.\Debug\AET.obj
+.\Debug\Bucket.obj
+.\Debug\Face.obj
+.\Debug\Fill.obj
+.\Debug\P2.obj
+.\Debug\Pi2.obj
+.\Debug\RGB.obj
+]
+Creating command line "link.exe @C:\Users\WANGHA~1\AppData\Local\Temp\RSP5066.tmp"
+<h3>Output Window</h3>
+Compiling...
+experiment8_1View.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+experiment8_1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
